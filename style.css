@@ -1,0 +1,65 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #241c2a;
+    color: white;
+}
+
+#container {
+    max-width:max-content;  
+    min-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: black;
+    border-radius: 12px;
+    padding: 16px 28px;
+    border: 2px solid purple;
+}
+
+#buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+  }
+  
+#ResScore, #ResSpeed {
+    margin: 0 10px; 
+    cursor: pointer;
+    background-color: #241c2a;
+    color: white;
+    border: 2px solid purple;
+    border-radius: 50px;
+    transform: scale(1.5);
+    width: 120px;
+    height: 30px;
+    font-size: 1em;
+    margin: 20px auto;
+    float: none;
+    clear: none;
+}
+
+#ResScore:hover, #ResSpeed:hover{
+    background-color: purple;
+}
+
+#ResScore:active, #ResSpeed:active{
+    background-color: rgb(196, 54, 196);
+    border: 2px solid rgb(196, 54, 196);
+}
+
+h1 {
+    margin: 0 10px; 
+    background-color: purple;
+    border: 2px solid purple;
+    color: white;
+    border-radius: 50px;
+    transform: scale(1.5);
+    width: 400px;
+    height: 50px;
+    font-size: 2.5em;
+    margin: 20px auto;
+    float: none;
+    clear: none;
+}
